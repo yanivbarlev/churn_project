@@ -28,7 +28,7 @@ members = members[members.registration_init_time<cutoff_date] #6434594
 sns.countplot(members.registration_init_time.apply(lambda x: x.year) )
 
 #members.to_pickle('members.pickle')
-
+#TODO:How to use logfiles?
 
 ######################Uploading transactions ######################################
 trans = pd.read_pickle('trans.pickle')
